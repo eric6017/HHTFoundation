@@ -1,0 +1,32 @@
+{
+  "name": "HHTFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of HHTFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenshuijin/HHTFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenshuijin": "eric@188w.com"
+  },
+  "source": {
+    "git": "https://github.com/chenshuijin/HHTFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HHTFoundation/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}

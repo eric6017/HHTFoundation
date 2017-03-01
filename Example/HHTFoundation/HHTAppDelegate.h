@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+#import <AFNetworking/AFNetworking.h>
+
 @interface HHTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
