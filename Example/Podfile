@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HHTFoundation_Example' do
+  pod 'HHTFoundation', :path => '../'
+
+  target 'HHTFoundation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
